@@ -12,7 +12,7 @@ This application is based on the source code for the open-meetings desktop publi
 
 ![http://red5-screenshare.googlecode.com/files/screenshare.jpg](http://red5-screenshare.googlecode.com/files/screenshare.jpg)
 
-Unzip screenshare..zip and move the screenshare folder to webapps.
+Unzip `screenshare.zip` and move the screenshare folder to webapps.
 
 ### Edit screenshare.jnlp
 ```java
