@@ -13,15 +13,15 @@ This application is based on the source code for the open-meetings desktop publi
 
 Unzip screenshare..zip and move the screenshare folder to webapps.
 
-Edit screenshare.jnlp
+### Edit screenshare.jnlp
 ```java
-<jnlp spec='1.0+' codebase='http://my_red5_server:5080/screenshare'> 
+<jnlp spec='1.0+' codebase='http://my_red5_server:5080/screenshare'>
 
-   <argument>my_red5_server</argument> 
-   <argument>screenshare</argument> 
-   <argument>1935</argument> 
-   <argument>screen_share</argument> 
-   <argument>flashsv2</argument> 
+   <argument>my_red5_server</argument>
+   <argument>screenshare</argument>
+   <argument>1935</argument>
+   <argument>screen_share</argument>
+   <argument>flashsv2</argument>
 
 ```
 
@@ -31,15 +31,15 @@ Leave screenshare as the application name unless you are using your own applicat
 Replace `screen\_share` with your choce of stream name. <p />
 Keep the screen codec setting of flashsv2 unless it does not work, then try flashsv1<p />
 
-Example for red5 server on localhost port 5080
+### Example for red5 server on localhost port 5080
 ```
-<jnlp spec='1.0+' codebase='http://localhost:5080/screenshare'> 
+<jnlp spec='1.0+' codebase='http://localhost:5080/screenshare'>
 
-   <argument>localhost</argument> 
-   <argument>screenshare</argument> 
-   <argument>1935</argument> 
-   <argument>screen_share</argument> 
-   <argument>flashsv2</argument> 
+   <argument>localhost</argument>
+   <argument>screenshare</argument>
+   <argument>1935</argument>
+   <argument>screen_share</argument>
+   <argument>flashsv2</argument>
 
 ```
 
@@ -51,9 +51,9 @@ See `do\_run1.cmd` and `do\_run2.cmd` for Windows command files
 
 Edit screenviewer.html
 ```js
-		var stream = getPageParameter('stream', 'screen_share');
-		var url = getPageParameter('url', 'rtmp:/xmpp');
-		var control = getPageParameter('control', 'true');
+  var stream = getPageParameter('stream', 'screen_share');
+  var url = getPageParameter('url', 'rtmp:/xmpp');
+  var control = getPageParameter('control', 'true');
 ```
 
 control is either true or false and determines if you allow remote desktop control or not.
