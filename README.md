@@ -33,6 +33,7 @@ Replace `screen\_share` with your choce of stream name.
 Keep the screen codec setting of flashsv2 unless it does not work, then try flashsv1
 
 ### Example for red5 server on localhost port 5080
+
 ```
 <jnlp spec='1.0+' codebase='http://localhost:5080/screenshare'>
   <argument>localhost</argument>
