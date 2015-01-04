@@ -34,13 +34,11 @@ Keep the screen codec setting of flashsv2 unless it does not work, then try flas
 ### Example for red5 server on localhost port 5080
 ```
 <jnlp spec='1.0+' codebase='http://localhost:5080/screenshare'>
-
-   <argument>localhost</argument>
-   <argument>screenshare</argument>
-   <argument>1935</argument>
-   <argument>screen_share</argument>
-   <argument>flashsv2</argument>
-
+  <argument>localhost</argument>
+  <argument>screenshare</argument>
+  <argument>1935</argument>
+  <argument>screen_share</argument>
+  <argument>flashsv2</argument>
 ```
 
 You can also run it from the command line. For example:
