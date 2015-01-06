@@ -47,7 +47,7 @@ You can also run it from the command line. For example:
 
 See `do\_run1.cmd` and `do\_run2.cmd` for Windows command files
 
-Edit screenviewer.html
+### Edit screenviewer.html
 ```js
   var stream = getPageParameter('stream', 'screen_share');
   var url = getPageParameter('url', 'rtmp:/xmpp');
