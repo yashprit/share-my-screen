@@ -25,7 +25,7 @@ Unzip screenshare..zip and move the screenshare folder to webapps.
 
 ```
 
-Replace `my\_red5\_server` with the hostname or ip address of your Red5 server.<p />
+Replace `my\_red5\_server` with the hostname or ip address of your Red5 server.
 Leave 1935 unless your RTMP port is something else.<p />
 Leave screenshare as the application name unless you are using your own application.<p />
 Replace `screen\_share` with your choce of stream name. <p />
