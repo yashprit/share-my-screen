@@ -29,7 +29,7 @@ Replace `my\_red5\_server` with the hostname or ip address of your Red5 server.
 Leave 1935 unless your RTMP port is something else.
 Leave screenshare as the application name unless you are using your own application.
 Replace `screen\_share` with your choce of stream name.
-Keep the screen codec setting of flashsv2 unless it does not work, then try flashsv1<p />
+Keep the screen codec setting of flashsv2 unless it does not work, then try flashsv1
 
 ### Example for red5 server on localhost port 5080
 ```
